@@ -1,3 +1,3 @@
-export const setScoreToStorage = (score) => {
-    localStorage.setItem('scores', JSON.stringify(score));
-};
+export default function setScoreToStorage(score) {
+  localStorage.setItem('scores', JSON.stringify(score));
+}
