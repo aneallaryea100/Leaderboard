@@ -1,0 +1,1 @@
+export const getScoreFromStorage = () => JSON.parse(localStorage.getItem('scores')) || [];
