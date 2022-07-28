@@ -1,3 +1,56 @@
-body{
-    background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 15rem;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 5rem;
+}
+
+.r_scores {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rh_scores {
+  display: flex;
+  width: 20rem;
+}
+
+.recents {
+  margin-right: 1rem;
+}
+
+.formact {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  width: 20rem;
+  margin: 0.5rem 0;
+}
+
+.btn_submit {
+  width: 6rem;
+  margin-left: 14rem;
+  margin-top: 0.5rem;
+}
+
+span {
+  margin: 0 0.5rem;
 }
