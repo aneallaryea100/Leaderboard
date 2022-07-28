@@ -4,8 +4,18 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url('jjj.jpg');
+}
+
 header {
   margin: 0 15rem;
+}
+
+h1{
+  color: aliceblue;
+  -webkit-text-stroke: 0.3vw lightblue;
+  font-size: 3rem;
 }
 
 li {
@@ -14,10 +24,34 @@ li {
   margin-bottom: 1rem;
 }
 
+p{
+  color: aliceblue;
+  font-size: large;
+}
+
+span{
+  color: aliceblue;
+}
+
 .mainBody {
   display: flex;
   justify-content: space-around;
-  margin: 4rem 5rem;
+  margin: 8rem 4rem;
+  background-image: url('gamer.jpg');
+  padding: 1rem 0.5rem;
+}
+
+.list_scores{
+  background-image: url('jjj.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.holdscores{
+  margin: 0 auto;
 }
 
 .r_scores {
@@ -33,6 +67,7 @@ li {
 
 .recents {
   margin-right: 1rem;
+  color: white;
 }
 
 .formact {
@@ -40,9 +75,14 @@ li {
   flex-direction: column;
 }
 
+.yourscores{
+  color: white;
+}
+
 input[type="text"] {
   width: 20rem;
   margin: 0.5rem 0;
+  padding: 0.3rem 0.4rem;
 }
 
 .btn_submit {
@@ -53,4 +93,20 @@ input[type="text"] {
 
 span {
   margin: 0 0.5rem;
+}
+
+button{
+  width: 10rem;
+  background-color: lightgreen;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rebeccapurple;
+  border-radius: 50px;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+button:hover{
+  box-shadow: 0 5px 50px 0 #15f415 inset, 0 5px 50px 0 #15f415,
+              0 5px 50px 0 #15f415 inset,0 5px 50px 0 #15f415;
 }
