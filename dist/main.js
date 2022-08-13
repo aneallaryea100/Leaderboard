@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n}\\r\\n\\r\\nheader {\\r\\n  margin: 0 15rem;\\r\\n}\\r\\n\\r\\nli {\\r\\n  list-style-type: none;\\r\\n  display: flex;\\r\\n  margin-bottom: 1rem;\\r\\n}\\r\\n\\r\\n.mainBody {\\r\\n  display: flex;\\r\\n  justify-content: space-around;\\r\\n  margin: 4rem 5rem;\\r\\n}\\r\\n\\r\\n.r_scores {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 2rem;\\r\\n}\\r\\n\\r\\n.rh_scores {\\r\\n  display: flex;\\r\\n  width: 20rem;\\r\\n}\\r\\n\\r\\n.recents {\\r\\n  margin-right: 1rem;\\r\\n}\\r\\n\\r\\n.formact {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\ninput[type=\\\"text\\\"] {\\r\\n  width: 20rem;\\r\\n  margin: 0.5rem 0;\\r\\n}\\r\\n\\r\\n.btn_submit {\\r\\n  width: 6rem;\\r\\n  margin-left: 14rem;\\r\\n  margin-top: 0.5rem;\\r\\n}\\r\\n\\r\\nspan {\\r\\n  margin: 0 0.5rem;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! jjj.jpg */ \"./src/jjj.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! gamer.jpg */ \"./src/gamer.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n}\\r\\n\\r\\nbody {\\r\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n}\\r\\n\\r\\nheader {\\r\\n  margin: 0 15rem;\\r\\n}\\r\\n\\r\\nh1 {\\r\\n  color: aliceblue;\\r\\n  -webkit-text-stroke: 0.3vw lightblue;\\r\\n  font-size: 3rem;\\r\\n}\\r\\n\\r\\nli {\\r\\n  list-style-type: none;\\r\\n  display: flex;\\r\\n  margin-bottom: 1rem;\\r\\n}\\r\\n\\r\\np {\\r\\n  color: aliceblue;\\r\\n  font-size: large;\\r\\n}\\r\\n\\r\\nspan {\\r\\n  color: aliceblue;\\r\\n  margin: 0 0.5rem;\\r\\n}\\r\\n\\r\\n.mainBody {\\r\\n  display: flex;\\r\\n  justify-content: space-around;\\r\\n  margin: 8rem 4rem;\\r\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\r\\n  padding: 1rem 0.5rem;\\r\\n}\\r\\n\\r\\n.list_scores {\\r\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  justify-content: center;\\r\\n  text-align: center;\\r\\n  padding: 0.5rem;\\r\\n}\\r\\n\\r\\n.holdscores {\\r\\n  margin: 0 auto;\\r\\n}\\r\\n\\r\\n.r_scores {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 2rem;\\r\\n}\\r\\n\\r\\n.rh_scores {\\r\\n  display: flex;\\r\\n  width: 20rem;\\r\\n}\\r\\n\\r\\n.recents {\\r\\n  margin-right: 1rem;\\r\\n  color: white;\\r\\n}\\r\\n\\r\\n.formact {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n}\\r\\n\\r\\n.yourscores {\\r\\n  color: white;\\r\\n}\\r\\n\\r\\ninput[type=\\\"text\\\"] {\\r\\n  width: 20rem;\\r\\n  margin: 0.5rem 0;\\r\\n  padding: 0.3rem 0.4rem;\\r\\n}\\r\\n\\r\\n.btn_submit {\\r\\n  width: 6rem;\\r\\n  margin-left: 14rem;\\r\\n  margin-top: 0.5rem;\\r\\n}\\r\\n\\r\\nbutton {\\r\\n  width: 10rem;\\r\\n  background-color: lightgreen;\\r\\n  cursor: pointer;\\r\\n  text-transform: uppercase;\\r\\n  color: rebeccapurple;\\r\\n  border-radius: 50px;\\r\\n  font-weight: 600;\\r\\n}\\r\\n\\r\\nbutton:hover {\\r\\n  box-shadow:\\r\\n    0 5px 50px 0 #15f415 inset,\\r\\n    0 5px 50px 0 #15f415,\\r\\n    0 5px 50px 0 #15f415 inset,\\r\\n    0 5px 50px 0 #15f415;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n\n      content += cssWithMappingToString(item);\n\n      if (needLayer) {\n        content += \"}\";\n      }\n\n      if (item[2]) {\n        content += \"}\";\n      }\n\n      if (item[4]) {\n        content += \"}\";\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n\n\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://leaderboard/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://leaderboard/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -110,53 +120,33 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/addScoresToStorage.js":
-/*!***********************************!*\
-  !*** ./src/addScoresToStorage.js ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ addScoresToStorage)\n/* harmony export */ });\n/* harmony import */ var _getScoreFromStorage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getScoreFromStorage.js */ \"./src/getScoreFromStorage.js\");\n/* harmony import */ var _setScoreToStorage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./setScoreToStorage.js */ \"./src/setScoreToStorage.js\");\n\n\n\nfunction addScoresToStorage(name, scorez) {\n  const recieveScores = (0,_getScoreFromStorage_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n  recieveScores.push({\n    name,\n    scores: scorez,\n    index: recieveScores.length + 1,\n  });\n  (0,_setScoreToStorage_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(recieveScores);\n}\n\n//# sourceURL=webpack://leaderboard/./src/addScoresToStorage.js?");
-
-/***/ }),
-
-/***/ "./src/getScoreFromStorage.js":
-/*!************************************!*\
-  !*** ./src/getScoreFromStorage.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ getScoreFromStorage)\n/* harmony export */ });\nfunction getScoreFromStorage() {\n  const bb = JSON.parse(localStorage.getItem('scores')) || [];\n  return bb;\n}\n\n//# sourceURL=webpack://leaderboard/./src/getScoreFromStorage.js?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _showScores_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./showScores.js */ \"./src/showScores.js\");\n/* harmony import */ var _addScoresToStorage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./addScoresToStorage.js */ \"./src/addScoresToStorage.js\");\n\n\n\n\n(0,_showScores_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n// add events\nconst addName = document.querySelector('#add_name');\nconst addScore = document.querySelector('#add_score');\nconst submitBtn = document.querySelector('.btn_submit');\nsubmitBtn.addEventListener('click', (els) => {\n  if (addName.value && addScore.value) {\n    els.preventDefault();\n    (0,_addScoresToStorage_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(addName.value, addScore.value);\n    addName.value = '';\n    addScore.value = '';\n    (0,_showScores_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  }\n});\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n// add events\nconst form = document.querySelector('.formact');\nconst addName = document.querySelector('#add_name');\nconst addScore = document.querySelector('#add_score');\nconst refresh = document.querySelector('.btn_refresh');\nconst listScores = document.querySelector('.list_scores');\n\n// introduce the api\n\nconst url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/1cfa2f50-0f4d-11ed-8754-19172f97de28/scores';\n\nconst addUserScores = () => {\n  const addNameValue = addName.value;\n  const addScoreValue = addScore.value;\n  fetch(url, {\n    method: 'POST',\n    headers: { 'Content-type': 'application/json; charset=UTF-8' },\n    body: JSON.stringify({\n      user: addNameValue,\n      score: addScoreValue,\n    }),\n  });\n};\n\nconst getUserScore = () => {\n  fetch(url).then(async (resolve) => {\n    const scoreData = await resolve.json();\n    const resultsData = scoreData.result;\n    return resultsData;\n  })\n    .then((resultsData) => {\n      for (let i = 0; i < resultsData.length; i += 1) {\n        const div1 = document.createElement('div');\n        div1.className = 'holdscores';\n        const li = document.createElement('li');\n        li.className = 'liScore';\n        const pEl = document.createElement('p');\n        pEl.className = 'names';\n        const span = document.createElement('span');\n        span.textContent = ': ';\n        const pEl2 = document.createElement('p');\n        pEl2.className = 'scoreNum';\n        pEl.textContent = resultsData[i].user;\n        pEl2.textContent = resultsData[i].score;\n        li.append(pEl, span, pEl2);\n        div1.appendChild(li);\n        listScores.appendChild(div1);\n      }\n    });\n};\n\ngetUserScore();\n\n// refresh button action\nrefresh.addEventListener('click', () => {\n  listScores.innerHTML = '';\n  getUserScore();\n});\n\n// form submission\nform.addEventListener('submit', (e) => {\n  e.preventDefault();\n  addUserScores();\n  form.reset();\n});\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/setScoreToStorage.js":
-/*!**********************************!*\
-  !*** ./src/setScoreToStorage.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./src/gamer.jpg":
+/*!***********************!*\
+  !*** ./src/gamer.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ setScoreToStorage)\n/* harmony export */ });\nfunction setScoreToStorage(score) {\n  localStorage.setItem('scores', JSON.stringify(score));\n}\n\n//# sourceURL=webpack://leaderboard/./src/setScoreToStorage.js?");
+eval("module.exports = __webpack_require__.p + \"2a87739b5861ef977f4f.jpg\";\n\n//# sourceURL=webpack://leaderboard/./src/gamer.jpg?");
 
 /***/ }),
 
-/***/ "./src/showScores.js":
-/*!***************************!*\
-  !*** ./src/showScores.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./src/jjj.jpg":
+/*!*********************!*\
+  !*** ./src/jjj.jpg ***!
+  \*********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ showScores)\n/* harmony export */ });\n/* harmony import */ var _getScoreFromStorage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getScoreFromStorage.js */ \"./src/getScoreFromStorage.js\");\n\n\nconst listScores = document.querySelector('.list_scores');\nfunction showScores() {\n  const scoreFromStorage = (0,_getScoreFromStorage_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n  listScores.innerHTML = '';\n  scoreFromStorage.forEach((score) => {\n    const div1 = document.createElement('div');\n    div1.className = 'holdscores';\n    const scoreLi = document.createElement('li');\n    scoreLi.className = 'liScore';\n    const pEl1 = document.createElement('p');\n    pEl1.textContent = score.name;\n    pEl1.className = 'names';\n    const span = document.createElement('span');\n    span.textContent = ': ';\n    const pEl2 = document.createElement('p');\n    pEl2.textContent = score.scores;\n    pEl2.className = 'scoreNum';\n    scoreLi.append(pEl1, span, pEl2);\n    div1.appendChild(scoreLi);\n    listScores.appendChild(div1);\n  });\n}\n\n//# sourceURL=webpack://leaderboard/./src/showScores.js?");
+eval("module.exports = __webpack_require__.p + \"a9ac0f96688eaa31e9b3.jpg\";\n\n//# sourceURL=webpack://leaderboard/./src/jjj.jpg?");
 
 /***/ })
 
@@ -185,6 +175,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -225,6 +218,37 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

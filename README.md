@@ -32,7 +32,7 @@ In this project, when the user enters the name and the scores it appears dynamic
 👤 Aneal Laryea
 * Github: [@aneallaryea](https://github.com/aneallaryea100)
 * LinkdIn: [@aneallaryea](https://www.linkedin.com/in/nii-aneal-84ba7a147)
-* Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+* Twitter: [@aneallaryea](https://twitter.com/AnealLaryea)
 
 
 ## 🤝 Contributing

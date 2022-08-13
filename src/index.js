@@ -9,7 +9,7 @@ const listScores = document.querySelector('.list_scores');
 
 // introduce the api
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/06PYzsia9cfYNBw8hgtG/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/1cfa2f50-0f4d-11ed-8754-19172f97de28/scores';
 
 const addUserScores = () => {
   const addNameValue = addName.value;
