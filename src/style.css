@@ -119,18 +119,15 @@ button:hover {
     margin: 8rem 4rem;
     background-image: url('gamer.jpg');
     padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    color: aliceblue;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 0.3vw lightblue;
+    padding: 0.5rem;
+  }
 }
-
-h1 {
-  color: aliceblue;
-  font-size: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  -webkit-text-stroke: 0.3vw lightblue;
-  padding: 0.5rem;
-}
-
-}
-
-
