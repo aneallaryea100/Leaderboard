@@ -11,9 +11,12 @@ In this project, when the user enters the name and the scores it appears dynamic
 - VSCODE
 - Webpack
 
+## Image Preview
+![leaderboard](./src/images/leadboard.png)
+
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://vermillion-mooncake-0a3677.netlify.app/)
 
 # Prerequisite
 * Modern Browser.Example: Firefox, chrome.
