@@ -1,3 +1,133 @@
-body{
-    background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('jjj.jpg');
+}
+
+header {
+  margin: 0 15rem;
+}
+
+h1 {
+  color: aliceblue;
+  -webkit-text-stroke: 0.3vw lightblue;
+  font-size: 3rem;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: aliceblue;
+  font-size: large;
+}
+
+span {
+  color: aliceblue;
+  margin: 0 0.5rem;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-around;
+  margin: 8rem 4rem;
+  background-image: url('gamer.jpg');
+  padding: 1rem 0.5rem;
+}
+
+.list_scores {
+  background-image: url('jjj.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.holdscores {
+  margin: 0 auto;
+}
+
+.r_scores {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rh_scores {
+  display: flex;
+  width: 20rem;
+}
+
+.recents {
+  margin-right: 1rem;
+  color: white;
+}
+
+.formact {
+  display: flex;
+  flex-direction: column;
+}
+
+.yourscores {
+  color: white;
+}
+
+input[type="text"] {
+  width: 20rem;
+  margin: 0.5rem 0;
+  padding: 0.3rem 0.4rem;
+}
+
+.btn_submit {
+  width: 6rem;
+  margin-left: 14rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  width: 10rem;
+  background-color: lightgreen;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rebeccapurple;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+button:hover {
+  box-shadow:
+    0 5px 50px 0 #15f415 inset,
+    0 5px 50px 0 #15f415,
+    0 5px 50px 0 #15f415 inset,
+    0 5px 50px 0 #15f415;
+}
+
+@media screen and (max-width: 600px) {
+  .mainBody {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 8rem 4rem;
+    background-image: url('gamer.jpg');
+    padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    color: aliceblue;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 0.3vw lightblue;
+    padding: 0.5rem;
+  }
 }
